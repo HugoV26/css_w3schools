@@ -1,0 +1,49 @@
+/* The CSS background properties are used to define the background effects for elements.
+*/
+
+/* CSS background-color
+
+- The background-color property specifies the background color of an element
+
+*/
+
+h1{
+    background-color: lightblue;
+}
+
+#colorVerde{
+    background-color: green;
+}
+
+
+/* Opacity
+
+- Specifies the opacity/transparency of an element.
+- When using the opacity property to add transparency to the background of an element, all of its child elements inherit the same transparency.
+
+*/
+#opacity{
+    background-color: blue;
+    opacity: 0.8;
+}
+
+/* Transparency using RGBA
+
+- If we don't want to apply opacity to child elements, use RGBA color values.
+
+
+*/
+
+#opacityRGBA{
+
+    background: rgba(0, 128, 0, 0.6);
+
+}
+
+/* CSS background-image
+
+- The background-image property specifies an image to use as the background of an element.
+- By default, the image es repeated so it covers the entire element.
+
+
+*/

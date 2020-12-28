@@ -1,0 +1,33 @@
+/* CSS Background Color 
+
+- You can set the background color for HTML elements.
+
+*/
+
+h1{
+    background-color: crimson;
+}
+
+p{
+    background-color: darkblue;
+}
+
+/* CSS Text Color
+
+- You can set the color of text.
+
+*/
+
+h2{
+    color:darkorchid;
+}
+
+/* CSS Border Color
+
+- You can set the color of borders.
+
+*/
+
+h3{
+    border: 2px solid Tomato;
+}
