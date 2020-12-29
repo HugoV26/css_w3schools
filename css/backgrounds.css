@@ -44,6 +44,52 @@ h1{
 
 - The background-image property specifies an image to use as the background of an element.
 - By default, the image es repeated so it covers the entire element.
-
+- The background-image can also be set for specific elements.
+- By default, the background-image property repeats an image both horizontally and vertically.
 
 */
+
+#img {
+    background-image: url("../images/Diana_1.jpg");
+}
+
+/*
+If an image is repeated only horizontall:
+    background-repeat: repeat-x;
+If an image is repeated only vertically:
+    background-repeat: repeat-y;
+
+*/
+
+/* CSS background-repeat: no-repeat
+- Show the background-image only once
+*/
+/* CSS  background-position
+- This property is used to specify the position of the background image
+*/
+/* CSS background-attachment
+-  This property specifies whether the background image should scroll (with the rest of the page) or be fixed  (will not scroll with the rest of the page)
+*/
+
+/*
+body {
+    background-image: url("../images/img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+*/
+
+/* CSS background-Shorthand property
+- It is also possible to specify all the background properties in one single property.
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+*/
+
+body{
+    background: blue url("../images/img_tree.png") no-repeat scroll right top;
+}
